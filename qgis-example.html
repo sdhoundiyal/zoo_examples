@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand navbar-shrink" href="./"><img src="//zoo-project.org/img/zoo-sun-logo.png" class="img-responsive sun" style="display: inline;"> ZOO</a>
-            <span class="pm-demo-title">OGR <span class="hidden-xs">spatial tools</span></span>
+            <span class="pm-demo-title">QGIS <span class="hidden-xs">spatial tools</span></span>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
@@ -37,38 +37,22 @@
 		<li class="navbar-btn">
 		<a href="#" class="btn btn-default btn-sml
 		single-process 
-		process" title="Buffer" name="buffer"
-		onclick="singleProcessing('Buffer');"><span>Buffer</span></a>
+		process" title="Affine" name="affineTransform"
+		onclick="singleProcessing('Affine');"><span>Affine Transform</span></a>
 		</li>
 		<li class="navbar-btn">
 		<a href="#" class="btn btn-default btn-sml
-		single-process process" title="Simplify" name="Simplify" onclick="singleProcessing('Simplify');"><span>Simplify</span></a>
+		single-process process" title="Centroid" name="Centroid" onclick="singleProcessing('Centroid');"><span>Centroid</span></a>
 		</li>
 		<li class="navbar-btn">
 		<a href="#" class="btn btn-default btn-sml
-		single-process process"title="ConvexHull" name="convexhull" onclick="singleProcessing('ConvexHull');"><span>Convex hull</span></a>
+		single-process process"title="TopologicalColoring" name="topologicalColoring" onclick="singleProcessing('TopologicalColoring');"><span>Topological Coloring</span></a>
 		</li>
 		<li class="navbar-btn">
 		<a href="#" class="btn btn-default btn-sml
-		single-process process" title="Boundary" name="boundary" onclick="singleProcessing('Boundary');"><span>Boundary</span></a>
+		single-process process" title="KernelDensityEstimation" name="kernelDensityEstimation" onclick="singleProcessing('KernelDensityEstimation');"><span>Kernel Density Estimation</span></a>
 		</li>
-		<li class="navbar-btn">
-		<a href="#" class="btn btn-default btn-sml multi-process
-		process" title="Union" name="Union" onclick="multiProcessing('Union');"><span>Union</span></a>
-		</li>
-		<li class="navbar-btn">
-		<a href="#" class="btn btn-default btn-sml
-		multi-process process" title="Intersection" name="intersection" onclick="app.multiProcessing('Intersection');"><span>Intersection</span></a>
-		</li>
-		<li class="navbar-btn">
-		<a href="#" class="btn btn-default btn-sml
-		multi-process process" title="SymDifference" name="symdifference" onclick="multiProcessing('SymDifference');"><span>SymDifference</span></a>
-		</li>
-		<li class="navbar-btn">
-		<a href="#" class="btn btn-default btn-sml
-		multi-process process" title="Difference" name="difference" onclick="multiProcessing('Difference');"><span>Difference</span></a>
-		</li>
-	    </ul> 
+		  </ul> 
  
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
